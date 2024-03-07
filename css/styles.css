@@ -71,7 +71,6 @@ a {
 .logo::before {
   content: "WEB";
   color: #4d5ae5;
-  transition: transform var(--transition);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -80,7 +79,6 @@ a {
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
-  transition: transform var(--transition);
 }
 
 /* Nav section */
@@ -520,11 +518,12 @@ a {
   height: 300px;
   padding: 40px 32px;
   background-image: url(../images/overlay-iris-color.jpg);
-  transform: translateY(100%);
+  transform: translateY(105%);
   transition: transform var(--transition);
 }
 .overlay-image:hover .overlay {
   transform: translateY(0px);
+  cursor: pointer;
 }
 .overlay-text {
   color: var(--overlay-text-color);
